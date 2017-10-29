@@ -1,0 +1,379 @@
+
+
+
+/* Surface laptop/tablets */
+@media only screen and (max-width: 1450px) {
+    .hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-55%, -180%);
+}
+
+    .hero-text-box h1 {
+        font-size: 185%;
+    }
+    
+    .hero-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-110%, 710%);
+}
+    
+
+    .info-box {
+        width: 100%;
+        padding-right: 40%;
+        margin-left: 1%;
+        padding-top: 50px;
+    }
+
+    .icon-list li {
+        list-style: none;
+        margin-bottom: 85%;
+        margin-left: 250%;
+    }
+
+    .info-list {
+        margin-top: -7%;
+        margin-left: 30%;
+        width: 20%;
+    }
+
+    .info-block {
+        margin-top: 80px;
+        margin-bottom: -50px;
+    }
+
+    .icon-list {
+        margin-top: 1px; 
+        padding-top: 1px;
+    }
+
+
+    .icon-small {
+        font-size: 300%;
+        list-style: none;
+    }
+
+    .info-title {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .info-text {
+        margin-bottom: 90px;
+        font-size: 14px;
+    }
+
+
+
+
+
+
+
+/* Big tablet to 1200 px (widths smaller then the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 60%;
+ 
+}
+
+    .hero-text-box h1 {
+        font-size: 155%;
+    }
+    
+    .hero-btn {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+
+}
+    
+    
+
+.icon-list li {
+    list-style: none;
+    margin-top: 30px;
+    margin-bottom: 39px;
+    margin-left: 250%;
+}
+
+.info-list {
+    margin-top: -22px;
+    margin-left: 20%;
+    width: 30%;
+}
+
+.info-block {
+    margin-top: 60px;
+    margin-bottom: -40px;
+}
+
+
+.icon-small {
+    font-size: 250%;
+    list-style: none;
+}
+
+.info-title {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.info-text {
+    margin-bottom: 90px;
+    font-size: 12px;
+}
+
+    
+}
+
+/* Small tablet to big tablet: from 768 to 1023px */
+@media only screen and (max-width: 1023px) {
+    .hero-text-box {
+        width: 100%;
+        top: 50%;
+        left: 60%;
+
+    }
+
+    .hero-text-box h1 {
+        font-size: 130%;
+    }
+     .hero-btn {
+    top: 40%;
+    left: 55%;
+
+}
+    .main-nav {
+        margin-top: 30px;
+        margin-right: 15px;
+    }
+
+    .main-nav li {
+        display: inline-block;
+        margin-left: 40px;
+    }
+
+    .logo {
+        height: 50px;
+        margin-top: 15px;
+        margin-left: 15px;
+}
+
+    .logo-black {
+        height: 50px;
+        margin-left: 15px;
+    }
+    
+}
+
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    
+     .hero-text-box {
+        width: 100%;
+        top: 50%;
+        left: 60%;
+
+    }
+
+    .hero-text-box h1 {
+        font-size: 100%;
+    }
+     .hero-btn {
+    top: 40%;     
+}
+    .main-nav {display: none;}
+    .mobile-nav-icon {
+        display: inline-block;
+        margin-right: 15px;
+        margin-top: 15px;
+    }
+    
+    .main-nav {
+        float: left;
+        margin-top: 35px;
+        margin-left: 25%;
+        text-align: center;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    
+    .sticky .main-nav {margin-top: 10px;}
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {padding: 16px 0;}
+
+    .sticky .logo {display: none;}
+    .sticky .logo-black {display: block;}
+    .sticky .mobile-nav-icon {margin-top: 10px;} 
+    .sticky .mobile-nav-icon i {color: #555;}
+
+
+
+    .thumbs {
+        margin-left: 25%;
+    }
+    .about-box:first-child {
+        width: 100%;
+        text-align: center;
+}
+    
+    .profile-picture {
+        width: 30%;
+}
+    
+    .about-description {
+        width: 100%;
+        margin-top: 40px;
+        margin-left: 45%;
+        text-align: center;
+}
+
+    .about-step:first-child {
+        margin-left: 45%;
+    }
+    .about-step:last-child {
+        margin-top: -140px;
+        margin-left: 100%;
+    }
+    
+    .icon-list li {
+        list-style: none;
+        margin-bottom: 37px;
+        margin-left: 100%;
+}
+
+    .info-list {
+        margin-top: 20px;;
+        margin-left: 14%;
+        width: 40%;
+        padding-top: 10px;
+    }
+
+    .info-block {
+        margin-top: 20px;
+        margin-bottom: -70px;
+    }
+    
+    .info-block3 {padding-top: 30px;}
+    .info-block4 {padding-top: 45px;}
+    
+
+    .icon-list {
+        margin-top: 6px;
+    }
+    
+    .contact-form {
+        width: 80%;
+        margin-right: 0%;
+        float: right;
+}
+    
+    }
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+     .hero-btn {
+        top: 40%;
+        left: 100%;
+        width: 80%;
+    }
+    .main-nav {margin-left: 15%;}
+
+    .about-description {
+        width: 100%;
+        margin-top: 40px;
+        margin-left: 0%;
+}
+
+    .about-step:first-child {
+        margin-left: 5%;
+    }
+    .about-step:last-child {
+        margin-top: -140px;
+        margin-left: 60%;
+    }
+    
+     .icon-list li {
+        list-style: none;
+        margin-bottom: 37px;
+        margin-left: 120px;
+}
+
+    .info-list {
+        margin-top: -350px;
+        margin-left: 65%;
+        width: 60%;
+        padding-top: 10px;
+    }
+
+    .info-block {
+        margin-top: -45px;
+        margin-bottom: 0px;
+    }
+    
+    .info-block2 { margin-top: -60px;}
+    .info-block3 { margin-top: -65px;}
+    .info-block4 { margin-top: -70px;}
+    
+    
+
+    .icon-list {
+        margin-top: 6px;
+    }
+    
+    .contact-form {
+        width: 170%;
+        margin-top: 30px;
+        margin-right: 20%;
+        margin-left: -45%;
+        float: left;
+}
+    .form-subject {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    
+    .footer-nav {
+        list-style: none;
+        float: left;
+        margin-left: -25px;
+        margin-right: -20px;
+        margin-bottom: 15px;
+}
+
+    .social-links {
+        list-style: none;
+        float: right;
+        width: 70%;
+    }
+
+
+    .footer-nav li:last-child,
+    .social-links li:last-child {
+        margin-right: 0;
+    }
+
+}
+
