@@ -85,6 +85,22 @@ $(document).ready(function() {
         $('html, body').animate({scrollTop: $('.js--section-portfolio').offset().top}, 1000);
     });
     
+    /* Google Maps */
+    var map = new GMaps({
+      div: '.map',
+      lat: -33.8587568,
+      lng: 151.2058246
+    });
+    
+    map.addMarker({
+      lat: -33.8587568,
+      lng: 151.2058246,
+      title: 'Sydney',
+      infoWindow: {
+      content: '<p>Sydney headquarters</p>'
+    }
+});
+    
     
 /* 
 * Function to animate image thumbnail arrows on hover

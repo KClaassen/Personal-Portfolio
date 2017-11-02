@@ -6,12 +6,13 @@
         <meta name="description" content="Portfolio by Kevin Claassen">
 
         <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
-        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css"><link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
         <link rel="stylesheet" type="text/css" href="resources/css/style.css"> 
         <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
         <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
         <title>Portfolio by Kevin Claassen</title>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     
         <link rel="apple-touch-icon" sizes="180x180" href="/resources/img/Logo-full-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/resources/img/Logo-full-icon.png">
@@ -40,72 +41,137 @@
                 </div>
             </nav>
             <div class="hero-text-box">
-                <h1>I am a<br> "coder and UX/UI Designer" </h1>
+                <h1>I am a Android developer </h1>
             </div>
             <div class="hero-btn">
-                <a class="btn btn-full js--scroll-to-contact" href="#contact">Hire me</a>
-                <a class="btn btn-ghost js--scroll-to-portfolio" href="#portfolio">Show me more</a>
+                <a class="btn btn-ghost js--scroll-to-contact" href="#contact">Hire me</a>
             </div>
         </header>
         
         <section class="section-portfolio js--wp-1 js--section-portfolio" id="portfolio">
             <h2>MY LATEST WORK</h2>
             <h3>Showing a collection of my Android Apps</h3>
-            <div class="container-fluid">
+            <div class="container">
               <div class="row latest-work ">
-                <div class="col port-item">
-                    <div class="port-img">
+                <div class="col-md-4">
+                    <div>
                         <img src="resources/img/1.jpg" alt="appname">
                     </div>
-                    <div class="port-text">
+                    <div class="feature-text">
                         <h3>Example</h3>
                     </div>
                 </div>
-                <div class="col port-item">
-                    <div class="port-img">
-                        <img src="resources/img/2.jpg" alt="appname">
+                <div class="col-md-4">
+                    <div>
+                        <img src="resources/img/1.jpg" alt="appname">
                     </div>
-                    <div class="port-text">
+                    <div class="feature-text">
                         <h3>Example</h3>
                     </div>
                 </div>
-                <div class="col port-item">
-                    <div class="port-img">
-                        <img src="resources/img/3.jpg" alt="appname">
+                <div class="col-md-4">
+                    <div>
+                        <img src="resources/img/1.jpg" alt="appname">
                     </div>
-                    <div class="port-text">
+                    <div class="feature-text">
                         <h3>Example</h3>
                     </div>
                 </div>
-              </div>
+            </div>
             </div>
         </section>
         
+        <div class="map-box">
+            <div class="map"></div>
+            <div class="form-box">
+                <div class="row">
+                    <h2>We're happy to hear from you</h2>
+                </div>
+                <div class="row">
+                    <form method="post" action="#" class="contact-form">
+                        <div class="row">
+                            <div class="col span-1-of-3">
+                                <label for="name">Name</label>
+                            </div>
+                            <div class="col span-2-of-3">
+                                <input type="text" name="name" id="name" placeholder="Your name" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col span-1-of-3">
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="col span-2-of-3">
+                                <input type="email" name="email" id="email" placeholder="Your email" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col span-1-of-3">
+                                <label for="find-us">How did you find us?</label>
+                            </div>
+                            <div class="col span-2-of-3">
+                                <select name="find-us" id="find-us">
+                                    <option value="friends" selected>Friends</option>
+                                    <option value="search">Search engine</option>
+                                    <option value="ad">Advertisement</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col span-1-of-3">
+                                <label>Newsletter</label>
+                            </div>
+                            <div class="col span-2-of-3">
+                                <input type="checkbox" name="news" id="news" checked> Yes, please
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col span-1-of-3">
+                                <label>Drop us a line</label>
+                            </div>
+                            <div class="col span-2-of-3">
+                                <textarea name="message" placeholder="Your message"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col span-1-of-3">
+                                <label>&nbsp;</label>
+                            </div>
+                            <div class="col span-2-of-3">
+                                <input type="submit" value="Sent it!">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
 
-            <footer>
-                <div class="row">
-                    <div class="col span-1-of-2">
-                        <ul class="footer-nav">
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">iOS App <i>(Coming soon)</i></a></li>
-                            <li><a href="#">Android App <i>(Coming soon)</i></a></li>
-                        </ul>
-                    </div>
-                    <div class="col span-1-of-2">
-                        <ul class="social-links">
-                            <li><a href="#"><i class="ion-social-facebook"></i></a>
-                            </li><li><a href="#"><i class="ion-social-linkedin"></i></a></li>
-                            <li><a href="#"><i class="ion-social-github"></i></a>
-                            </li><li><a href="#"><i class="ion-social-instagram"></i></a></li>
-                        </ul>
-                    </div>
+        <footer>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="footer-nav">
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">iOS App <i>(Coming soon)</i></a></li>
+                        <li><a href="#">Android App <i>(Coming soon)</i></a></li>
+                    </ul>
                 </div>
-                <div class="row">
-                    <p>
-                        Copyright &copy; 2017 by Kevin Claassen. All rights reserved.
-                    </p>
+                <div class="col-md-6">
+                    <ul class="social-links">
+                        <li><a href="#"><i class="ion-social-facebook"></i></a>
+                        </li><li><a href="#"><i class="ion-social-linkedin"></i></a></li>
+                        <li><a href="#"><i class="ion-social-github"></i></a>
+                        </li><li><a href="#"><i class="ion-social-instagram"></i></a></li>
+                    </ul>
                 </div>
-            </footer>
+            </div>
+            <div class="row">
+                <p>
+                    Copyright &copy; 2017 by Kevin Claassen. All rights reserved.
+                </p>
+            </div>
+        </footer>
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
@@ -113,6 +179,9 @@
     <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>   
     <script src="vendors/js/jquery.waypoints.min.js"></script>
     <script src="resources/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
         
     </body>
     

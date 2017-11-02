@@ -195,20 +195,20 @@ header {
 .hero-text-box {
     position: absolute;
     width: 1140px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-58%, -210%);
+    top: 30%;
+    left: 5%;
 }
 
 .hero-text-box h1 {
     font-size: 185%;
+    font-weight: 300;
+    color: white;
 }
 
 .hero-btn {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-130%, 980%);
+    top: 80%;
+    left: 45%;
 }
  
 
@@ -320,20 +320,66 @@ header {
     margin-top: 50px;
 }
 
-.port-item {
-    width: 32%;
-    margin: 7px;
-    box-shadow:  0 2px 2px #efefef;
+
+.feature-text {
+    background-color: #ffffff;
 }
 
-.port-img img {
+
+/* -------------------------------------- */
+/* FORM */
+/* -------------------------------------- */
+
+.contact-form {
+    width: 90%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width:  100%;
+    padding: 7px;
+    border-radius: 3px;
+    border:1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+*:focus {outline: none;}
+
+.map-box {
     width: 100%;
-    height: auto;
+    height: 560px;
+    position: relative;
 }
 
-.port-text {
-    background-color: white;
+.map {
+    width: 100%;
+    height: 560px;
+    position: relative;
+    z-index: 0;
 }
+
+.form-box {
+    height: 560px;
+    padding-top: 40px;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 10;
+}
+
+
 
 /* -------------------------------------- */
 /* FOOTER */
